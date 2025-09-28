@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/preferenceJobFragment">
+
+    <fragment
+        android:id="@+id/preferenceJobFragment"
+        android:name="com.unimib.ilovedevelopers.ui.home.fragment.PreferenceJobFragment"
+        android:label="@string/preference"
+        tools:layout="@layout/fragment_preference_job" />
+    <fragment
+        android:id="@+id/statisticsJobFragment"
+        android:name="com.unimib.ilovedevelopers.ui.home.fragment.StatisticsJobFragment"
+        android:label="@string/statistics"
+        tools:layout="@layout/fragment_statistics_job" />
+    <fragment
+        android:id="@+id/searchJobFragment"
+        android:name="com.unimib.ilovedevelopers.ui.home.fragment.SearchJobFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search_job" />
+    <fragment
+        android:id="@+id/favoriteJobFragment"
+        android:name="com.unimib.ilovedevelopers.ui.home.fragment.FavoriteJobFragment"
+        android:label="@string/favorite"
+        tools:layout="@layout/fragment_favorite_job" />
+</navigation>

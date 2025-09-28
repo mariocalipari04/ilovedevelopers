@@ -1,0 +1,622 @@
+{
+    "mean": 53913.64,
+    "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+    "results": [
+        {
+            "redirect_url": "https://www.adzuna.it/details/5417845055?utm_medium=api&utm_source=706850d0",
+            "title": "12533 - STAGE in CMCC",
+            "location": {
+                "display_name": "Italia",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Italia"
+                ]
+            },
+            "description": "Job Opening cod. 12533 CMCC Position STAGE in CMCC CMCC La Fondazione CMCC è un centro di ricerca scientifica sul cambiamento climatico e sulle sue interazioni con l'ambiente, la società, il mondo delle imprese e dei responsabili politici. Il nostro lavoro mira a stimolare la crescita sostenibile, proteggere l'ambiente e sviluppare strategie per l'adattamento e la mitigazione dei cambiamenti climatici. La Fondazione ha avviato un percorso di “ STAGE in CMCC” per la crescita di giovani talenti a…",
+            "created": "2025-09-27T14:14:35Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUEVqTmk1NmI4QkdMWU9Od0hRRy1vQSIsImkiOiI1NDE3ODQ1MDU1In0.2313-qyTz9Vh6_eafUU3JTa1hdxSeGWr_ONtKW_VtO4",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5417845055",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "CMCC Foundation"
+            },
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Unknown",
+                "tag": "unknown"
+            }
+        },
+        {
+            "title": "Junior Assembly Technician _ ID 010",
+            "location": {
+                "display_name": "Pedaso, Provincia di Fermo",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Italia",
+                    "Marche",
+                    "Provincia di Fermo",
+                    "Pedaso"
+                ]
+            },
+            "longitude": 13.841722,
+            "redirect_url": "https://www.adzuna.it/details/5417842811?utm_medium=api&utm_source=706850d0",
+            "latitude": 43.100167,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Civitanavi Systems"
+            },
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Unknown",
+                "tag": "unknown"
+            },
+            "created": "2025-09-27T14:12:28Z",
+            "description": "Company overview Civitanavi Systems S.p.A. is a leading player in the design, development and manufacture high-tech solutions of Navigation, Control and Stabilization Systems, for several applications, in Aerospace Defense and Industrial sectors. The application of proprietary methods and technologies, based on FOG (Fiber Optic Gyroscope) and MEMS (Micro Electro-Mechanical Systems) technology, enables the company to best meet the specific needs of its customers. Founded as a start-up in 2012 in…",
+            "id": "5417842811",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUEVqTmk1NmI4QkdMWU9Od0hRRy1vQSIsImkiOiI1NDE3ODQyODExIn0.jXsxJydc5anvXAlFVNOi7oxnwppaF23mm0AR-k5K3X0"
+        },
+        {
+            "description": "Fincons Group è una società internazionale di consulenza IT che da oltre 40 anni accompagna le imprese nel cogliere le opportunità del cambiamento digitale, proponendo soluzioni e tecnologie all’avanguardia che anticipano sempre il futuro. Alle aziende dei settori Energy & Utilities , Financial Services and Insurance , International Institutions , Manufacturing , Media , Public Administration e Transportation , Fincons offre consulenza sulle strategie IT in diversi ambiti, così come servizi di …",
+            "created": "2025-09-27T14:11:30Z",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzg0MTE3OCIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.dPVyHDetZhM566hoixPuRPDnPpuuhm8VgCh0g5d91wo",
+            "id": "5417841178",
+            "latitude": 45.625842,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Fincons Group"
+            },
+            "salary_is_predicted": "0",
+            "category": {
+                "tag": "unknown",
+                "label": "Unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "longitude": 9.35213,
+            "redirect_url": "https://www.adzuna.it/details/5417841178?utm_medium=api&utm_source=706850d0",
+            "title": "Middle .Net Core Developer",
+            "location": {
+                "area": [
+                    "Italia",
+                    "Lombardia",
+                    "Provincia di Monza e Brianza",
+                    "Vimercate"
+                ],
+                "display_name": "Vimercate, Provincia di Monza e Brianza",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            }
+        },
+        {
+            "longitude": 12.32853,
+            "redirect_url": "https://www.adzuna.it/details/5417793511?utm_medium=api&utm_source=706850d0",
+            "title": "ADMINISTRATIVE DEPARTMENT",
+            "location": {
+                "display_name": "Venezia, Provincia di Venezia",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Venezia",
+                    "Venezia"
+                ]
+            },
+            "description": "Roustabouts / Roughnecks, Welders / Mechanics, Rig Operators / Drillers, Engineers (petroleum and mechanical) Health and safety officer, Superintendent SMP, SMP Supervisor, Document Controller Clerk, Community Superintendent, Training / HRD superintendent; SMP Engineer, Mine Engineer, Mine Surveyor, QA / QC Superintendent Steward, Shift Leader. Business Analyst, Payroll Manager, Marketing Specialist, Administration Supervisor, Human Resources Officer, Financial Analyst, Senior Marketing Analyst…",
+            "created": "2025-09-27T14:01:14Z",
+            "id": "5417793511",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUEVqTmk1NmI4QkdMWU9Od0hRRy1vQSIsImkiOiI1NDE3NzkzNTExIn0.krU6KdlwZdSTOoncm27cGc1f2bbwiRWn_08TMNKln9A",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "The Geodes Oil and Gas Plc"
+            },
+            "latitude": 45.463925,
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "unknown",
+                "label": "Unknown"
+            }
+        },
+        {
+            "company": {
+                "display_name": "TRAVEL FRIENDS SRL",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "latitude": 45.57009,
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "unknown",
+                "label": "Unknown"
+            },
+            "created": "2025-09-27T14:01:14Z",
+            "description": "La nostra realtà: Siamo un Tour Operator con sede a Vicenza con 20 anni di esperienza nel settore. Lavoriamo con costanza e passione per offrire un servizio di eccellenza ai nostri clienti! Organizziamo servizi turistici personalizzati e collaboriamo con le più grandi OTA/OLTA in Italia e all’estero. La nostra ricerca è costruire un turismo di valore offrendo un servizio di eccellenza attraverso l'utilizzo delle migliori soluzioni digitali e di un team altamente qualificato. Descrizione del ruo…",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5417793545",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc5MzU0NSIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.DlI6NZK446PWVhg-eEPKPIV9DpSjV9EZJkEa5s-jZiI",
+            "title": "COMMERCIALE ESTERNO AGENTE O DIPENDENTE SETTORE TURISMO PER TOUR OPERATOR",
+            "location": {
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Vicenza",
+                    "Vicenza"
+                ],
+                "display_name": "Vicenza, Provincia di Vicenza",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "longitude": 11.531162,
+            "redirect_url": "https://www.adzuna.it/details/5417793545?utm_medium=api&utm_source=706850d0"
+        },
+        {
+            "longitude": 13.389698,
+            "redirect_url": "https://www.adzuna.it/details/5417793488?utm_medium=api&utm_source=706850d0",
+            "title": "PROGRAMMATORE JUNIOR PLC INDUSTRIALI",
+            "location": {
+                "area": [
+                    "Italia",
+                    "Marche",
+                    "Provincia di Ancona",
+                    "Falconara Marittima"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Falconara Marittima, Provincia di Ancona"
+            },
+            "created": "2025-09-27T14:01:13Z",
+            "description": "PROGRAMMATORE JUNIOR PLC INDUSTRIALI La posizione ricercata richiede una formazione proveniente da uno dei seguenti percorsi: - laurea triennale o laurea magistrale in elettronica / automazione; - diploma tecnico industriale ad indirizzo meccatronica/ elettronica / automazione; - diploma professionale ad indirizzo elettronica / automazione. Si richiede inoltre una effettiva istruzione e/o minima esperienza e competenza nello sviluppo software, capacità di lettura di schemi elettrici industriali…",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUEVqTmk1NmI4QkdMWU9Od0hRRy1vQSIsImkiOiI1NDE3NzkzNDg4In0.-T91PEMLFaOR_DOnwz3a4tny656CXVycQ8ZkhmySFMk",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5417793488",
+            "latitude": 43.61273,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "SISTEMI AUTOMATICI SRL"
+            },
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Unknown",
+                "tag": "unknown"
+            }
+        },
+        {
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUEVqTmk1NmI4QkdMWU9Od0hRRy1vQSIsImkiOiI1NDE3NzkzNDQzIn0.nSJNgcyDfyzQdyazHekrOrRIzhKiqqN2tuz9oOK7g8M",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5417793443",
+            "created": "2025-09-27T14:01:13Z",
+            "description": "Siamo un Tour Operator e Agenzia Viaggio specializzati nell’organizzazione di viaggi di gruppo e individuali con l’obiettivo di creare esperienze su misura per i nostri clienti. La nostra mission è offrire un servizio di eccellenza attraverso l'uso di tecnologie avanzate e di un team altamente qualificato. Siamo alla ricerca di persone motivate e appassionate del settore da inserire nel ruolo di Buyer-contrattista hotel che abbiano già maturato esperienza anche in ruoli simili. La risorsa avrà …",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Unknown",
+                "tag": "unknown"
+            },
+            "salary_is_predicted": "0",
+            "company": {
+                "display_name": "TRAVEL FRIENDS SRL",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "latitude": 45.57009,
+            "redirect_url": "https://www.adzuna.it/details/5417793443?utm_medium=api&utm_source=706850d0",
+            "longitude": 11.531162,
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Vicenza, Provincia di Vicenza",
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Vicenza",
+                    "Vicenza"
+                ]
+            },
+            "title": "BUYER DIGITAL - CONTRATTISTA HOTEL"
+        },
+        {
+            "latitude": 45.57009,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "TRAVEL FRIENDS SRL"
+            },
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Unknown",
+                "tag": "unknown"
+            },
+            "salary_is_predicted": "0",
+            "created": "2025-09-27T14:01:13Z",
+            "description": "Siamo un tour operator e agenzia viaggio specializzati nella creazione e nell’organizzazione di viaggi di gruppo e individuali con l’obiettivo di creare esperienze su misura per i nostri clienti. La nostra sfida è costruire un turismo di valore offrendo un servizio di eccellenza attraverso l'uso di sistemi innovativi e di un team altamente qualificato. Descrizione del ruolo: Cerchiamo profili qualificati per la Divisione Booking e Customer Care con esperienza nella gestione dei sistemi di preno…",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc5MzQ0NSIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.lztEpNiQnkPGRzgis5JXBM77SFRMZnGCJTXtgjVYZTQ",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5417793445",
+            "title": "ADDETTO BOOKING E CUSTOMER CARE",
+            "location": {
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Vicenza",
+                    "Vicenza"
+                ],
+                "display_name": "Vicenza, Provincia di Vicenza",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "longitude": 11.531162,
+            "redirect_url": "https://www.adzuna.it/details/5417793445?utm_medium=api&utm_source=706850d0"
+        },
+        {
+            "title": "INSIDE SALES – ADDETTO/A BOOKING GRUPPI",
+            "location": {
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Vicenza",
+                    "Vicenza"
+                ],
+                "display_name": "Vicenza, Provincia di Vicenza",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "longitude": 11.531162,
+            "redirect_url": "https://www.adzuna.it/details/5417793321?utm_medium=api&utm_source=706850d0",
+            "latitude": 45.57009,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "TRAVEL FRIENDS SRL"
+            },
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "unknown",
+                "label": "Unknown"
+            },
+            "description": "La nostra realtà: Siamo un Tour Operator e Agenzia Viaggio specializzati nella creazione e nell’organizzazione di viaggi di gruppo e individuali. Da più di 20 anni lavoriamo con costanza e passione per offrire un servizio di eccellenza ai nostri clienti! Organizziamo servizi turistici personalizzati e collaboriamo con le più grandi OLTA in Italia e all’estero. La nostra ricerca è costruire un turismo di valore offrendo un servizio di eccellenza attraverso l'utilizzo delle migliori soluzioni dig…",
+            "created": "2025-09-27T14:01:12Z",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5417793321",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc5MzMyMSIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.b_bA6ENTJkIglBL1R3xqQfZ3RM-lkZrc9kAhBhsniH0"
+        },
+        {
+            "longitude": 13.361369,
+            "redirect_url": "https://www.adzuna.it/details/5417793241?utm_medium=api&utm_source=706850d0",
+            "title": "FISIOTERAPISTI",
+            "location": {
+                "area": [
+                    "Italia",
+                    "Sicilia",
+                    "Provincia di Palermo",
+                    "Palermo"
+                ],
+                "display_name": "Palermo, Provincia di Palermo",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "created": "2025-09-27T14:01:12Z",
+            "description": "Per prestigioso, rinomato e riconosciuto gruppo che si prende cura degli anziani attraverso le proprie strutture residenziali, presenti in diverse località nel territorio italiano, siamo alla ricerca di fisioterapisti, , che abbiano il desiderio di portare il proprio contributo all’interno delle diverse realtà residenziali gestite dal gruppo presenti sulla gran parte del territorio nazionale. Questa ricerca è specifica per candidati e candidate residenti o disponibili al trasferimento nelle Reg…",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc5MzI0MSIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.pNnfZg3WvuwruaDzfX4h13Ndz3QTrlypou0pEs93unE",
+            "id": "5417793241",
+            "latitude": 38.123579,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Work On Time S.p.A."
+            },
+            "salary_is_predicted": "0",
+            "category": {
+                "tag": "unknown",
+                "label": "Unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            }
+        },
+        {
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "TRAVEL FRIENDS SRL"
+            },
+            "latitude": 45.57009,
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "unknown",
+                "label": "Unknown"
+            },
+            "created": "2025-09-27T14:01:12Z",
+            "description": "Siamo un tour operator e agenzia viaggio specializzati nella creazione e nell’organizzazione di viaggi di gruppo e individuali che da più di 20 anni lavora con impegno e passione per creare esperienze su misura per i nostri clienti. La nostra sfida è costruire un turismo di valore offrendo un servizio di eccellenza attraverso l'uso di sistemi innovativi e di un team altamente qualificato. Descrizione del ruolo: Cerchiamo addetti alla biglietteria con esperienza che si occupino della gestione de…",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUEVqTmk1NmI4QkdMWU9Od0hRRy1vQSIsImkiOiI1NDE3NzkzMjQwIn0._rtzfreToHtt8Le8kxyFxjcyzHR-IMCqKX5jDjO8TRY",
+            "id": "5417793240",
+            "title": "ADDETTO BIGLIETTERIA TRENI E TRASPORTI PER TOUR OPERATOR",
+            "location": {
+                "display_name": "Vicenza, Provincia di Vicenza",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Vicenza",
+                    "Vicenza"
+                ]
+            },
+            "longitude": 11.531162,
+            "redirect_url": "https://www.adzuna.it/details/5417793240?utm_medium=api&utm_source=706850d0"
+        },
+        {
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Unknown",
+                "tag": "unknown"
+            },
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "TRAVEL FRIENDS SRL"
+            },
+            "latitude": 45.57009,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc5MzM1NSIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.VfDSEdOyxYehhoAfqbRZtqd43_1YkryEOqJXZFcGSGY",
+            "id": "5417793355",
+            "created": "2025-09-27T14:01:12Z",
+            "description": "Siamo un tour operator e agenzia viaggio specializzati nella creazione e nell’organizzazione di viaggi di gruppo e individuali che da più di 20 anni lavora con impegno e passione per creare esperienze su misura per i nostri clienti. La nostra sfida è costruire un turismo di valore offrendo un servizio di eccellenza attraverso l'uso di sistemi innovativi e di un team altamente qualificato. Descrizione del ruolo: Cerchiamo addetti alla biglietteria con esperienza che si occupino della gestione op…",
+            "location": {
+                "display_name": "Vicenza, Provincia di Vicenza",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Vicenza",
+                    "Vicenza"
+                ]
+            },
+            "title": "ADDETTO BIGLIETTERIA AEREA",
+            "redirect_url": "https://www.adzuna.it/details/5417793355?utm_medium=api&utm_source=706850d0",
+            "longitude": 11.531162
+        },
+        {
+            "location": {
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Vicenza",
+                    "Vicenza"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Vicenza, Provincia di Vicenza"
+            },
+            "title": "Addetti Vendita",
+            "redirect_url": "https://www.adzuna.it/land/ad/5417762578?se=PEjNi56b8BGLYONwHQG-oA&utm_medium=api&utm_source=706850d0&v=A86214F9D6053746FB792B414369C5C786C9BF15",
+            "longitude": 11.531162,
+            "category": {
+                "label": "Unknown",
+                "tag": "unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "salary_is_predicted": "0",
+            "company": {
+                "display_name": "GiGroup",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "latitude": 45.57009,
+            "id": "5417762578",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUEVqTmk1NmI4QkdMWU9Od0hRRy1vQSIsImkiOiI1NDE3NzYyNTc4In0.ZfRdirXChoFhu8r2KkfU09Qbm7mPwDUHJVQCfFbwwoE",
+            "description": "Ti piacciono gli animali e ami prendertene cura? Ti piacerebbe conoscere tutti i segreti dell’alimentazione sana e di un ambiente giocoso? Abbiamo la proposta giusta per te Gi Group SpA, Agenzia per il Lavoro, filiale di Vicenza. Ricerca per azienda rivenditrice di alimenti e prodotti per animali con punto vendita a Vicenza ADDETTI ALLE VENDITE Di cosa ti occuperai? Gestione richieste e servizio alla clientela; Consulenza sui migliori prodotti per gli animali Attività di cassa Sistemazione e pu…",
+            "created": "2025-09-27T13:59:30Z"
+        },
+        {
+            "redirect_url": "https://www.adzuna.it/land/ad/5417762713?se=PEjNi56b8BGLYONwHQG-oA&utm_medium=api&utm_source=706850d0&v=4D185BCBC31EEC3B7F33E81332F9164ECDFC8AF5",
+            "longitude": 11.259031,
+            "location": {
+                "display_name": "Legnago, Provincia di Verona",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Verona",
+                    "Legnago"
+                ]
+            },
+            "title": "Responsabile di Cucina",
+            "id": "5417762713",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc2MjcxMyIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.ZsQRvMJLnUzeK8Jfb2aZrBWIDfX9P9CL1C7synjqWIM",
+            "description": "Gi Group, prima agenzia per il lavoro italiana con oltre 200 filiali sul territorio nazionale e più di 1800 professionisti impegnati ogni giorno ad orientare, formare e accompagnare le persone verso nuove opportunità lavorative RICERCA per Azienda Cliente che opera nel settore della ristorazione, un RESPONSABILE CUCINA La risorsa selezionata sarà inserita all’interno della cucina di un importante locale e si occuperà principalmente di: Gestione della squadra e dei turni dei colleghi; Verifica d…",
+            "created": "2025-09-27T13:59:30Z",
+            "category": {
+                "tag": "unknown",
+                "label": "Unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "salary_is_predicted": "0",
+            "latitude": 45.22374,
+            "company": {
+                "display_name": "GiGroup",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            }
+        },
+        {
+            "created": "2025-09-27T13:59:30Z",
+            "description": "Gi Group, filiale di Schio, ricerca per importante azienda cliente operante nel settore GDO un/a: ADDETTO SUPERMERCATO - APPRENDISTATO da inserire tramite iniziale contratto di somministrazione e successiva trasformazione in contratto di apprendistato. La risorsa si occuperà di assicurare il riassortimento e riordino della merce a scaffale per favorire l'acquisto ed assistere il cliente in caso di necessità, nello specifico si occuperà di: - Scaffalatura, riordino, riassortimento merce - Assist…",
+            "id": "5417762766",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc2Mjc2NiIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.-56W9qWzJ2oBbL1-FJuklE1jk-6Lx8x1zOb18UUMbjs",
+            "latitude": 45.721799,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "GiGroup"
+            },
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "unknown",
+                "label": "Unknown"
+            },
+            "longitude": 11.367357,
+            "redirect_url": "https://www.adzuna.it/land/ad/5417762766?se=PEjNi56b8BGLYONwHQG-oA&utm_medium=api&utm_source=706850d0&v=3466766569F3E6D04758651802B9B019C428F81B",
+            "title": "Addetto Supermercato - Apprendistato",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Schio, Provincia di Vicenza",
+                "area": [
+                    "Italia",
+                    "Veneto",
+                    "Provincia di Vicenza",
+                    "Schio"
+                ]
+            }
+        },
+        {
+            "location": {
+                "area": [
+                    "Italia",
+                    "Toscana",
+                    "Provincia di Pisa",
+                    "Pisa"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Pisa, Provincia di Pisa"
+            },
+            "title": "Técnico Assistenza Post Vendita",
+            "redirect_url": "https://www.adzuna.it/land/ad/5417762721?se=PEjNi56b8BGLYONwHQG-oA&utm_medium=api&utm_source=706850d0&v=6F5EE3142E5313AA2D40E483E7CEE492129B9D23",
+            "longitude": 10.417154,
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "unknown",
+                "label": "Unknown"
+            },
+            "salary_is_predicted": "0",
+            "latitude": 43.689721,
+            "company": {
+                "display_name": "GiGroup",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "5417762721",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUEVqTmk1NmI4QkdMWU9Od0hRRy1vQSIsImkiOiI1NDE3NzYyNzIxIn0.1chv9Jc0PWcFEzeTGxQiWdIhVSLZSaAzVnL4AIf37Vc",
+            "description": "Per importante e strutturata azienda cliente leader mondiale nella produzione e assistenza di macchinari per le autoattrezzature ricerchiamo un TECNICO ASSISTENZA POST VENDITA La risorsa sarà inserita all'interno della squadra di tecnici post vendita sul territorio della Toscana, opererà in particolare sulle province di Livorno, Pisa e Pistoia. REQUISITI TECNICI: Esperienza anche mínima (dai 6-12 mesi) nel ruolo in settori affini e nella mansione di service tecnico. Competenze indispensabili: m…",
+            "created": "2025-09-27T13:59:30Z"
+        },
+        {
+            "title": "Contabile",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Milano, Provincia di Milano",
+                "area": [
+                    "Italia",
+                    "Lombardia",
+                    "Provincia di Milano",
+                    "Milano"
+                ]
+            },
+            "longitude": 9.187087,
+            "redirect_url": "https://www.adzuna.it/land/ad/5417762817?se=PEjNi56b8BGLYONwHQG-oA&utm_medium=api&utm_source=706850d0&v=DDF0732F7D96425E24D76E551ACAB60A2A9E4087",
+            "company": {
+                "display_name": "Kelly Services",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "latitude": 45.471322,
+            "salary_is_predicted": "0",
+            "category": {
+                "tag": "unknown",
+                "label": "Unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "description": "Job description: Kelly Finance & Accounting, per importante realtà del settore Food & Beverage ricerca un addetto/a CONTABILE Mansione Riportando al responsabile finance offre supporto alle operazioni contabili. Le principali responsabilità includono: - Tenuta della prima nota di cassa; - Controllo quotidiano fondo cassa ; - Gestione delle entrate e dei pagamenti; - Redazione di scritture contabili di base e dei relativi registri; - Predisposizione degli adempimenti fiscali e previdenziali; - L…",
+            "created": "2025-09-27T13:59:30Z",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc2MjgxNyIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.uId7d0RIPRJWOsJj1Yc0t8Sd0lYhDs5v9iRXiGD4eMs",
+            "id": "5417762817"
+        },
+        {
+            "location": {
+                "area": [
+                    "Italia",
+                    "Emilia-Romagna",
+                    "Provincia di Modena",
+                    "Carpi"
+                ],
+                "display_name": "Carpi, Provincia di Modena",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "title": "Pizzaiolo",
+            "redirect_url": "https://www.adzuna.it/land/ad/5417762625?se=PEjNi56b8BGLYONwHQG-oA&utm_medium=api&utm_source=706850d0&v=8E01B5059D07B5D776624F901465DD9399C6E4F0",
+            "longitude": 10.882352,
+            "salary_is_predicted": "0",
+            "category": {
+                "tag": "unknown",
+                "label": "Unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "GiGroup"
+            },
+            "latitude": 44.778808,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5417762625",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUEVqTmk1NmI4QkdMWU9Od0hRRy1vQSIsImkiOiI1NDE3NzYyNjI1In0.TeUs52VD6v5J5VnTVN8YexalTyZb_fLLC4S77ARnul8",
+            "description": "Gi Group, prima Agenzia per il Lavoro Italiana con oltre 200 filiali sul territorio nazionale e più di 1800 professionisti nel settore delle Risorse Umane ricerca per importante azienda operante nel settore Food PIZZAIOLO La risorsa si occuperà della preparazione degli impasti necessari e della cottura in diversi tipi di forno, predisporrà inoltre la lievitazione in base alle diverse tipologie di farine e lieviti. Avrà il compito di pulire, tagliare e preparare gli ingredienti necessari per la …",
+            "created": "2025-09-27T13:59:30Z"
+        },
+        {
+            "longitude": 11.901796,
+            "redirect_url": "https://www.adzuna.it/land/ad/5417762815?se=PEjNi56b8BGLYONwHQG-oA&utm_medium=api&utm_source=706850d0&v=A2244863CC32441427D9F22BEBF306493CEE0EC8",
+            "title": "Responsabile Amministrativo Finanza e Controllo",
+            "location": {
+                "area": [
+                    "Italia",
+                    "Emilia-Romagna",
+                    "Provincia di Ravenna",
+                    "Faenza"
+                ],
+                "display_name": "Faenza, Provincia di Ravenna",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "description": "Gi Group, filiale di Lugo cerca RESPONSABILE AMMINISTRAZIONE FINANZA E CONTROLLO La figura ricercata sarà inserita all'interno dell’ufficio amministrativo e gestirà un team di 3 persone. Le attività da gestire sono: Gestione e rapporti con le banche; Gestione e rapporti con la società di revisione; Scritture contabili fino alla chiusura del bilancio e rapporti con il commercialista per la chiusura del bilancio d’esercizio; Redazione di verbali di assemblee e soci; Adempimenti fiscali - controll…",
+            "created": "2025-09-27T13:59:30Z",
+            "id": "5417762815",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc2MjgxNSIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.aCv-J5qlBi51tpSxeDMDYUikUE3RHhwryHBppG5G4Vg",
+            "company": {
+                "display_name": "GiGroup",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "latitude": 44.2885,
+            "category": {
+                "label": "Unknown",
+                "tag": "unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "salary_is_predicted": "0"
+        },
+        {
+            "location": {
+                "display_name": "Rivoli, Provincia di Torino",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Italia",
+                    "Piemonte",
+                    "Provincia di Torino",
+                    "Rivoli"
+                ]
+            },
+            "title": "Operatore e Tecnologo Stampaggio Plastica",
+            "redirect_url": "https://www.adzuna.it/land/ad/5417762470?se=PEjNi56b8BGLYONwHQG-oA&utm_medium=api&utm_source=706850d0&v=392B10F8D6A013C0B90CC319E9FC3CE1B61AE982",
+            "longitude": 7.530108,
+            "salary_is_predicted": "0",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "unknown",
+                "label": "Unknown"
+            },
+            "latitude": 45.066088,
+            "company": {
+                "display_name": "GiGroup",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTQxNzc2MjQ3MCIsInMiOiJQRWpOaTU2YjhCR0xZT053SFFHLW9BIn0.4-UsVevdT70NoIyBNoTTg6CGvrWHtvD4aUz83GLBQKQ",
+            "id": "5417762470",
+            "created": "2025-09-27T13:59:30Z",
+            "description": "Gi Group Spa, filiale di Rivoli, ricerca per azienda cliente: Operatore e tecnologo stampaggio plastica La risorsa ricercata dovrà avere conoscenza dei polimeri utilizzati nello stampaggio ad iniezione, esperienza in problem solving sul prodotto finale ( eccesso di bave, deformazioni ecce cc) ed esperienza su componenti da stampaggio tecnici ed estetici. E' richiesta un'esperienza mínima di 4-5 anni. Orari e turni: dal lunedì al venerdì su turni Luogo di lavoro: Rivoli Tipologia contratto: assu…"
+        }
+    ],
+    "count": 649348
+}

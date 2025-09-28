@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/preferenceJobFragment"
+        android:title="Preference"
+        android:enabled="true"
+        android:icon="@drawable/preference"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/statisticsJobFragment"
+        android:title="Statistics"
+        android:icon="@drawable/statistics"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/searchJobFragment"
+        android:title="Search"
+        android:icon="@drawable/search"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/favoriteJobFragment"
+        android:title="Favorite"
+        android:icon="@drawable/favorite"
+        >
+
+    </item>
+</menu>
