@@ -43,7 +43,7 @@ public class FavoriteJobFragment extends Fragment {
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
 
-        List<Job> jobList = JobDatabase.getDatabase(getContext()).JobDao().getAll();
+        List<Job> jobList = JobDatabase.getDatabase(getContext()).JobDao().getLiked();
 
         JobRecyclerAdapter jobRecyclerAdapter = new JobRecyclerAdapter(R.layout.job_card, jobList, false);
         recyclerView.setAdapter(jobRecyclerAdapter);

@@ -15,6 +15,7 @@ import com.unimib.ilovedevelopers.database.JobDatabase;
 import com.unimib.ilovedevelopers.model.api.response.Job;
 
 import java.util.List;
+import java.util.concurrent.Executors;
 
 public class JobRecyclerAdapter extends RecyclerView.Adapter<JobRecyclerAdapter.ViewHolder> {
 
@@ -26,14 +27,19 @@ public class JobRecyclerAdapter extends RecyclerView.Adapter<JobRecyclerAdapter.
     public static class ViewHolder extends RecyclerView.ViewHolder {
         private final TextView textViewTitle;
         private final TextView textViewCompany;
+        private final TextView textViewCreatedAt;
         private final CheckBox favoriteCheckbox;
 
         public ViewHolder(View view) {
             super(view);
-
+            textViewCreatedAt= view.findViewById(R.id.createdAt);
             textViewTitle = view.findViewById(R.id.job_title);
             textViewCompany = view.findViewById(R.id.job_company);
             favoriteCheckbox = view.findViewById(R.id.favoriteButton);
+        }
+
+        public TextView getTextViewCreatedAt() {
+            return textViewCreatedAt;
         }
 
         public TextView getTextViewTitle() {
@@ -66,26 +72,24 @@ public class JobRecyclerAdapter extends RecyclerView.Adapter<JobRecyclerAdapter.
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
 
+        viewHolder.getTextViewCreatedAt().setText(jobList.get(position).getCreated());
         viewHolder.getTextViewCompany().setText(jobList.get(position).getCompany().getDisplay_name());
         viewHolder.getTextViewTitle().setText(jobList.get(position).getTitle());
+        viewHolder.getFavoriteCheckbox().setChecked(jobList.get(position).getLiked());
 
         viewHolder.getFavoriteCheckbox().setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(@NonNull CompoundButton buttonView, boolean isChecked) {
-                if(isChecked){
-                    JobDatabase.getDatabase(viewHolder.getTextViewCompany().getContext()).JobDao()
-                            .insertAll(jobList.get(position));
-                }else{
-                    JobDatabase.getDatabase(viewHolder.getTextViewCompany().getContext()).JobDao()
-                            .delete(jobList.get(position));
-                }
+                Job currentJob = jobList.get(viewHolder.getBindingAdapterPosition());
+
+                currentJob.setLiked(true);
+
+                JobDatabase.getDatabase(viewHolder.getTextViewCompany().getContext()).JobDao().updateJob(currentJob);
             }
         });
 
-        if(heartVisible == false){
-            viewHolder.getFavoriteCheckbox().setVisibility(View.INVISIBLE);
-        }
     }
+
 
     @Override
     public int getItemCount() {

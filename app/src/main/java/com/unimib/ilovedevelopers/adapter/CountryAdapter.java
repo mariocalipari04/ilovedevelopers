@@ -45,9 +45,7 @@ public class CountryAdapter extends ArrayAdapter<Country> {
          convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SharedPreferencesUtil sharedPreferencesUtil = new SharedPreferencesUtil(getContext());
-                sharedPreferencesUtil.writeStringData(SharedPreferencesUtil.SHARED_PREFERENCES_FILENAME,
-                        SharedPreferencesUtil.SHARED_PREFERENCES_COUNTRY_OF_INTEREST,
+                SharedPreferencesUtil.getInstance(getContext()).writeStringData(SharedPreferencesUtil.SHARED_PREFERENCES_COUNTRY_OF_INTEREST,
                         countriesList.get(position).getCode());
                 Navigation.findNavController(v).navigate(R.id.action_pickCountryFragment_to_pickJobCategoryFragment);
             }

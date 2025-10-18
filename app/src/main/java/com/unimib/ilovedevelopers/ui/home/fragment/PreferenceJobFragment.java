@@ -20,6 +20,7 @@ import com.unimib.ilovedevelopers.repository.IJobRepository;
 import com.unimib.ilovedevelopers.repository.JobAPIRepository;
 import com.unimib.ilovedevelopers.repository.JobMockRepository;
 import com.unimib.ilovedevelopers.util.ResponseCallBack;
+import com.unimib.ilovedevelopers.util.SharedPreferencesUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +34,8 @@ public class PreferenceJobFragment extends Fragment implements ResponseCallBack{
 
     private JobRecyclerAdapter jobRecyclerAdapter;
     private List<Job> jobList;
+
+    private SharedPreferencesUtil sharedPreferencesUtil;
 
     public PreferenceJobFragment() {
         // Required empty public constructor
@@ -60,8 +63,8 @@ public class PreferenceJobFragment extends Fragment implements ResponseCallBack{
 
         jobRecyclerAdapter = new JobRecyclerAdapter(R.layout.job_card, jobList, true);
         recyclerView.setAdapter(jobRecyclerAdapter);
-        jobRepository.fetchJobs("it", 2,100);
-
+        jobRepository.fetchJobs(SharedPreferencesUtil.getInstance(getContext()).readStringData(SharedPreferencesUtil.SHARED_PREFERENCES_COUNTRY_OF_INTEREST),
+                SharedPreferencesUtil.getInstance(getContext()).readStringData(SharedPreferencesUtil.SHARED_PREFERENCES_CATEGORIES_OF_INTEREST),1,100);
         return view;
     }
 

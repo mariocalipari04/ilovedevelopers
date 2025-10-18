@@ -7,40 +7,42 @@ import java.util.Set;
 
 public class SharedPreferencesUtil {
 
+    private static SharedPreferencesUtil instance;
+    private SharedPreferences prefs;
+
     public static final String SHARED_PREFERENCES_FILENAME = "com.unimib.ilovedevelopers.preferences";
     public static final String SHARED_PREFERENCES_COUNTRY_OF_INTEREST = "country_of_interest";
     public static final String SHARED_PREFERENCES_CATEGORIES_OF_INTEREST = "categories_of_interest";
-    private final Context context;
 
-    public SharedPreferencesUtil(Context context){
-        this.context = context;
+    private SharedPreferencesUtil(Context context) {
+        prefs = context.getApplicationContext()
+                .getSharedPreferences(SHARED_PREFERENCES_FILENAME, Context.MODE_PRIVATE);
     }
 
-    public void writeStringData(String sharedPreferencesFileName, String key, String value){
-        SharedPreferences sharePref = context.getSharedPreferences(sharedPreferencesFileName,
-                Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharePref.edit();
+    public static synchronized SharedPreferencesUtil getInstance(Context context) {
+        if (instance == null) {
+            instance = new SharedPreferencesUtil(context);
+        }
+        return instance;
+    }
+
+    public void writeStringData(String key, String value){
+        SharedPreferences.Editor editor = prefs.edit(); // prefs è già il file gestito dal singleton
         editor.putString(key, value);
         editor.apply();
     }
 
-    public void writeStringSetData(String sharedPreferencesFileName, String key, Set<String> value){
-        SharedPreferences sharePref = context.getSharedPreferences(sharedPreferencesFileName,
-                Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharePref.edit();
-        editor.putStringSet(key, value);
-        editor.apply();
+
+    public String readStringData(String key) {
+        return prefs.getString(key, null);
     }
 
-    public String readStringData(String sharedPreferencesFileName, String key){
-        SharedPreferences sharePref = context.getSharedPreferences(sharedPreferencesFileName,
-                Context.MODE_PRIVATE);
-        return sharePref.getString(key, null);
+    public boolean readBooleanData(String key) {
+        return prefs.getBoolean(key, false);
     }
 
-    public Set<String> readStringSetData(String sharedPreferencesFileName, String key) {
-        SharedPreferences sharePref = context.getSharedPreferences(sharedPreferencesFileName,
-                Context.MODE_PRIVATE);
-        return sharePref.getStringSet(key, null);
+    public int readIntData(String key) {
+        return prefs.getInt(key, 0);
     }
+
 }

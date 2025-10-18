@@ -16,14 +16,14 @@ import android.widget.Button;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 import com.unimib.ilovedevelopers.R;
-import com.unimib.ilovedevelopers.ui.welcome.LoginActivity;
+import com.unimib.ilovedevelopers.ui.welcome.LauncherActivity;
 
 import org.apache.commons.validator.routines.EmailValidator;
 
 public class LoginFragment extends Fragment {
 
 
-    public static final String TAG = LoginActivity.class.getName();
+    public static final String TAG = LauncherActivity.class.getName();
     private TextInputEditText editTextEmail, editTextPassword;
 
     public LoginFragment() {

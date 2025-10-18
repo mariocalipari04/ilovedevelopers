@@ -38,23 +38,6 @@ public class StatisticsJobFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_statistics_job, container, false);
 
-        RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
-
-
-        JSONParserUtil jsonParserUtil = new JSONParserUtil(getContext());
-
-        try {
-            JobSearchResponse response = jsonParserUtil.parseJSONFile("response.json");
-            Log.i(TAG, response.getTotalResults() + " RISULTATI");
-            List<Job> jobList = response.getResults();
-
-            JobRecyclerAdapter jobRecyclerAdapter = new JobRecyclerAdapter(R.layout.job_card, jobList, true);
-            recyclerView.setAdapter(jobRecyclerAdapter);
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
         return view;
     }
 }

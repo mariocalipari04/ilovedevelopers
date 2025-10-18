@@ -14,7 +14,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="204dp"
         android:padding="16dp">
 
         <TextView
@@ -47,8 +47,8 @@
             android:ellipsize="end"
             android:maxLines="4"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="101dp"
-            tools:ignore="MissingConstraints" />
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="101dp" />
 
         <CheckBox
             android:id="@+id/favoriteButton"
@@ -73,5 +73,15 @@
             tools:ignore="MissingConstraints">
 
         </Button>
+
+        <TextView
+            android:id="@+id/createdAt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="108dp"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

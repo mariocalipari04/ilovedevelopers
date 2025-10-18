@@ -29,7 +29,17 @@ public class Job {
     private double longitude;
     private String salary_is_predicted;
 
+    private boolean liked;
+
     public Job() {}
+
+    public boolean getLiked() {
+        return liked;
+    }
+
+    public void setLiked(boolean liked) {
+        this.liked = liked;
+    }
 
     public String getId() {
         return id;

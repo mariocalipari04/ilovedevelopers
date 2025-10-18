@@ -33,11 +33,11 @@ public class JobAPIRepository implements IJobRepository {
         this.jobDAO = jobDatabase.JobDao();
     }
     @Override
-    public void fetchJobs(String country, int page, long lastUpdate) {
+    public void fetchJobs(String country, String category, int page, long lastUpdate) {
         long currentTime = System.currentTimeMillis();
         if(true){
-            Call<JobSearchResponse> jobSearchResponseCall = jobAPIService.getJobs(country,
-                    application.getString(R.string.jobapi_id), application.getString(R.string.jobapi_key),50);
+            Call<JobSearchResponse> jobSearchResponseCall = jobAPIService.getJobs(country, category,
+                    application.getString(R.string.jobapi_id), application.getString(R.string.jobapi_key),50, "date");
             jobSearchResponseCall.enqueue(new Callback<JobSearchResponse>() {
                 @Override
                 public void onResponse(Call<JobSearchResponse> call, Response<JobSearchResponse> response) {

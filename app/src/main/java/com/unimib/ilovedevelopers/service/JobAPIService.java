@@ -15,10 +15,11 @@ public interface JobAPIService {
     @GET("jobs/{country}/search/1")
     Call<JobSearchResponse> getJobs(
             @Path("country") String country,
+            @Query("category") String category,
             //@Path("page") int page,
             @Query(APIUtil.QUERY_APP_ID) String appId,
             @Query(APIUtil.QUERY_APP_KEY) String appKey,
-            @Query("results_per_page") int resultsPerPage
-            //@Query("sort_by") String sortBy
+            @Query("results_per_page") int resultsPerPage,
+            @Query("sort_by") String sortBy
     );
 }

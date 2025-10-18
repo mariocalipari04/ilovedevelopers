@@ -2,7 +2,7 @@ package com.unimib.ilovedevelopers.repository;
 
 public class JobMockRepository implements IJobRepository{
     @Override
-    public void fetchJobs(String country, int page, long lastUpdate) {
+    public void fetchJobs(String country, String category, int page, long lastUpdate) {
 
     }
 

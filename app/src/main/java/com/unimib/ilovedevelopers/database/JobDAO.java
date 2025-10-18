@@ -13,11 +13,12 @@ import java.util.List;
 
 @Dao
 public interface JobDAO {
-    @Query("SELECT * FROM Job")
+    @Query("SELECT * FROM Job ORDER BY created DESC")
     List<Job> getAll();
 
-    //@Query("SELECT * FROM Job WHERE liked = 1")
-    //List<Job> getLiked();
+    @Query("SELECT * FROM Job WHERE liked = 1")
+    List<Job> getLiked();
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertAll(Job... jobs);
 
