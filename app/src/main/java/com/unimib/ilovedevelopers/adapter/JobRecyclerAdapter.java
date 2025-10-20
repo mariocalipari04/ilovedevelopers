@@ -11,11 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.unimib.ilovedevelopers.R;
-import com.unimib.ilovedevelopers.database.JobDatabase;
-import com.unimib.ilovedevelopers.model.api.response.Job;
+import com.unimib.ilovedevelopers.database.job.JobDatabase;
+import com.unimib.ilovedevelopers.model.api.response.job.Job;
 
 import java.util.List;
-import java.util.concurrent.Executors;
 
 public class JobRecyclerAdapter extends RecyclerView.Adapter<JobRecyclerAdapter.ViewHolder> {
 

@@ -3,7 +3,6 @@ package com.unimib.ilovedevelopers.ui.home.fragment;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -15,17 +14,17 @@ import com.google.android.material.progressindicator.CircularProgressIndicator;
 import com.google.android.material.snackbar.Snackbar;
 import com.unimib.ilovedevelopers.R;
 import com.unimib.ilovedevelopers.adapter.JobRecyclerAdapter;
-import com.unimib.ilovedevelopers.model.api.response.Job;
-import com.unimib.ilovedevelopers.repository.IJobRepository;
-import com.unimib.ilovedevelopers.repository.JobAPIRepository;
-import com.unimib.ilovedevelopers.repository.JobMockRepository;
+import com.unimib.ilovedevelopers.model.api.response.job.Job;
+import com.unimib.ilovedevelopers.repository.job.IJobRepository;
+import com.unimib.ilovedevelopers.repository.job.JobAPIRepository;
+import com.unimib.ilovedevelopers.repository.job.JobMockRepository;
 import com.unimib.ilovedevelopers.util.ResponseCallBack;
 import com.unimib.ilovedevelopers.util.SharedPreferencesUtil;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PreferenceJobFragment extends Fragment implements ResponseCallBack{
+public class PreferenceJobFragment extends Fragment implements ResponseCallBack<Job>{
 
     private static final String TAG = PreferenceJobFragment.class.getName();
     private RecyclerView recyclerView;
@@ -70,15 +69,13 @@ public class PreferenceJobFragment extends Fragment implements ResponseCallBack{
 
     @Override
     public void onSucccess(List<Job> jobList, long lastUpdate) {
-        this.jobList.clear();
-        this.jobList.addAll(jobList);
-        requireActivity().runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                jobRecyclerAdapter.notifyDataSetChanged();
-                recyclerView.setVisibility(View.VISIBLE);
-                circularProgressIndicator.setVisibility(View.GONE);
-            }
+        PreferenceJobFragment.this.jobList.clear();
+        PreferenceJobFragment.this.jobList.addAll(jobList);
+
+        requireActivity().runOnUiThread(() -> {
+            jobRecyclerAdapter.notifyDataSetChanged();
+            recyclerView.setVisibility(View.VISIBLE);
+            circularProgressIndicator.setVisibility(View.GONE);
         });
     }
 

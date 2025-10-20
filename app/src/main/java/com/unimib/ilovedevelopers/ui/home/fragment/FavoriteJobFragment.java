@@ -6,19 +6,15 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.unimib.ilovedevelopers.R;
 import com.unimib.ilovedevelopers.adapter.JobRecyclerAdapter;
-import com.unimib.ilovedevelopers.database.JobDatabase;
-import com.unimib.ilovedevelopers.model.api.response.Job;
-import com.unimib.ilovedevelopers.model.api.response.JobSearchResponse;
-import com.unimib.ilovedevelopers.util.JSONParserUtil;
+import com.unimib.ilovedevelopers.database.job.JobDatabase;
+import com.unimib.ilovedevelopers.model.api.response.job.Job;
 
-import java.io.IOException;
 import java.util.List;
 
 public class FavoriteJobFragment extends Fragment {

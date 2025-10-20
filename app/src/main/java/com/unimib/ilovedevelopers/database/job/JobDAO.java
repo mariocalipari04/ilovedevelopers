@@ -1,4 +1,4 @@
-package com.unimib.ilovedevelopers.database;
+package com.unimib.ilovedevelopers.database.job;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -7,7 +7,7 @@ import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
-import com.unimib.ilovedevelopers.model.api.response.Job;
+import com.unimib.ilovedevelopers.model.api.response.job.Job;
 
 import java.util.List;
 

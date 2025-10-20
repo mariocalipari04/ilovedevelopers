@@ -1,7 +1,7 @@
 package com.unimib.ilovedevelopers.service;
 
 
-import com.unimib.ilovedevelopers.model.api.response.JobSearchResponse;
+import com.unimib.ilovedevelopers.model.api.response.job.JobSearchResponse;
 import com.unimib.ilovedevelopers.util.APIUtil;
 
 import retrofit2.Call;

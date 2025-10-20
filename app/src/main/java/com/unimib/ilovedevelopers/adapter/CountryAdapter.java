@@ -1,56 +1,70 @@
 package com.unimib.ilovedevelopers.adapter;
 
 import android.content.Context;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.navigation.Navigation;
-import androidx.navigation.Navigator;
+import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.card.MaterialCardView;
+import com.bumptech.glide.Glide;
 import com.unimib.ilovedevelopers.R;
-import com.unimib.ilovedevelopers.model.Country;
-import com.unimib.ilovedevelopers.util.SharedPreferencesUtil;
+import com.unimib.ilovedevelopers.model.api.response.country.CountryEntity;
 
-import java.util.ArrayList;
+import java.util.List;
 
-public class CountryAdapter extends ArrayAdapter<Country> {
+public class CountryAdapter extends RecyclerView.Adapter<CountryAdapter.CountryViewHolder> {
 
-    private int layout;
-    private ArrayList<Country> countriesList;
-    public CountryAdapter(@NonNull Context context, @NonNull int layout, @NonNull ArrayList<Country> countriesList) {
-        super(context, layout, countriesList);
-        this.layout = layout;
-        this.countriesList = countriesList;
+    public interface OnCountryClickListener {
+        void onCountryClick(CountryEntity country);
+    }
+
+    private final Context context;
+    private final List<CountryEntity> countries;
+    private final OnCountryClickListener listener;
+
+    public CountryAdapter(Context context, List<CountryEntity> countries, OnCountryClickListener listener) {
+        this.context = context;
+        this.countries = countries;
+        this.listener = listener;
     }
 
     @NonNull
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        convertView = LayoutInflater.from(getContext()).inflate(layout, parent, false);
+    public CountryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(context).inflate(R.layout. country_card, parent, false);
+        return new CountryViewHolder(view);
+    }
 
-        TextView title = convertView.findViewById(R.id.textView);
-        ImageView imageView = convertView.findViewById(R.id.imageView);
+    @Override
+    public void onBindViewHolder(@NonNull CountryViewHolder holder, int position) {
+        CountryEntity country = countries.get(position);
+        holder.countryName.setText(country.getName().getCommon());
 
-        title.setText(countriesList.get(position).getName());
-        imageView.setImageDrawable(countriesList.get(position).getImage());
+        Glide.with(context)
+                .load(country.getFlags().getPng())
+                .placeholder(R.drawable.placeholder_flag)
+                .into(holder.flagImage);
 
-         convertView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                SharedPreferencesUtil.getInstance(getContext()).writeStringData(SharedPreferencesUtil.SHARED_PREFERENCES_COUNTRY_OF_INTEREST,
-                        countriesList.get(position).getCode());
-                Navigation.findNavController(v).navigate(R.id.action_pickCountryFragment_to_pickJobCategoryFragment);
-            }
-        });
+        holder.itemView.setOnClickListener(v -> listener.onCountryClick(country));
+    }
 
-        return convertView;
+    @Override
+    public int getItemCount() {
+        return countries.size();
+    }
+
+    public static class CountryViewHolder extends RecyclerView.ViewHolder {
+        ImageView flagImage;
+        TextView countryName;
+
+        public CountryViewHolder(@NonNull View itemView) {
+            super(itemView);
+            flagImage = itemView.findViewById(R.id.flagImageView);
+            countryName = itemView.findViewById(R.id.countryNameTextView);
+        }
     }
 }

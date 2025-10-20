@@ -1,4 +1,4 @@
-package com.unimib.ilovedevelopers.database;
+package com.unimib.ilovedevelopers.database.job;
 
 import android.content.Context;
 
@@ -6,9 +6,8 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import com.unimib.ilovedevelopers.model.api.response.Job;
+import com.unimib.ilovedevelopers.model.api.response.job.Job;
 
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

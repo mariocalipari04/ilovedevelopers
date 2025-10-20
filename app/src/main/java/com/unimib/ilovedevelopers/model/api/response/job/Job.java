@@ -1,4 +1,4 @@
-package com.unimib.ilovedevelopers.model.api.response;
+package com.unimib.ilovedevelopers.model.api.response.job;
 
 import android.location.Location;
 

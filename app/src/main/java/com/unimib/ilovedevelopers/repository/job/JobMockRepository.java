@@ -1,4 +1,4 @@
-package com.unimib.ilovedevelopers.repository;
+package com.unimib.ilovedevelopers.repository.job;
 
 public class JobMockRepository implements IJobRepository{
     @Override

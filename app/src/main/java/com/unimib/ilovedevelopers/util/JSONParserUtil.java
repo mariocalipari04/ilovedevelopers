@@ -3,7 +3,7 @@ package com.unimib.ilovedevelopers.util;
 import android.content.Context;
 
 import com.google.gson.Gson;
-import com.unimib.ilovedevelopers.model.api.response.JobSearchResponse;
+import com.unimib.ilovedevelopers.model.api.response.job.JobSearchResponse;
 
 import java.io.BufferedReader;
 import java.io.IOException;

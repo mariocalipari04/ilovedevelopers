@@ -46,6 +46,7 @@ dependencies {
     implementation("commons-validator:commons-validator:1.10.0")
     implementation("com.google.code.gson:gson:2.13.2")
     implementation("androidx.room:room-runtime:2.8.1")
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
     implementation(libs.logging.interceptor)
     implementation(libs.google.material)
     annotationProcessor(libs.room.compiler)

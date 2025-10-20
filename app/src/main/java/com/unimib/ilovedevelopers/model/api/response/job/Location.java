@@ -1,8 +1,11 @@
-package com.unimib.ilovedevelopers.model.api.response;
+package com.unimib.ilovedevelopers.model.api.response.job;
 
-public class Company {
+import java.util.List;
+
+public class Location {
     private String display_name;
     private String __CLASS__;
+    private List<String> area;
 
     public String getDisplay_name() {
         return display_name;
@@ -18,5 +21,13 @@ public class Company {
 
     public void set__CLASS__(String __CLASS__) {
         this.__CLASS__ = __CLASS__;
+    }
+
+    public List<String> getArea() {
+        return area;
+    }
+
+    public void setArea(List<String> area) {
+        this.area = area;
     }
 }

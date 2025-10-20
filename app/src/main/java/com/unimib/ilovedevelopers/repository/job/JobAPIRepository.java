@@ -1,13 +1,13 @@
-package com.unimib.ilovedevelopers.repository;
+package com.unimib.ilovedevelopers.repository.job;
 
 import android.app.Application;
 import android.util.Log;
 
 import com.unimib.ilovedevelopers.R;
-import com.unimib.ilovedevelopers.database.JobDAO;
-import com.unimib.ilovedevelopers.database.JobDatabase;
-import com.unimib.ilovedevelopers.model.api.response.Job;
-import com.unimib.ilovedevelopers.model.api.response.JobSearchResponse;
+import com.unimib.ilovedevelopers.database.job.JobDAO;
+import com.unimib.ilovedevelopers.database.job.JobDatabase;
+import com.unimib.ilovedevelopers.model.api.response.job.Job;
+import com.unimib.ilovedevelopers.model.api.response.job.JobSearchResponse;
 import com.unimib.ilovedevelopers.service.JobAPIService;
 import com.unimib.ilovedevelopers.service.ServiceLocator;
 import com.unimib.ilovedevelopers.util.ResponseCallBack;

@@ -2,7 +2,8 @@ package com.unimib.ilovedevelopers.service;
 
 import android.app.Application;
 
-import com.unimib.ilovedevelopers.database.JobDatabase;
+import com.unimib.ilovedevelopers.database.country.CountryDatabase;
+import com.unimib.ilovedevelopers.database.job.JobDatabase;
 import com.unimib.ilovedevelopers.util.APIUtil;
 
 import okhttp3.OkHttpClient;
@@ -48,5 +49,17 @@ public class ServiceLocator {
 
     public JobDatabase getJobsDB(Application application){
         return JobDatabase.getDatabase(application);
+    }
+
+    public CountryAPIService getCountryAPIService(){
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("https://restcountries.com/")
+                .client(client)
+                .addConverterFactory(GsonConverterFactory.create()).build();
+        return retrofit.create(CountryAPIService.class);
+    }
+
+    public CountryDatabase getCountryDB(Application application){
+        return CountryDatabase.getDatabase(application);
     }
 }

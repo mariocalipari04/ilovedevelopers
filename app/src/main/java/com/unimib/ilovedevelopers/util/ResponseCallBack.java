@@ -1,11 +1,13 @@
 package com.unimib.ilovedevelopers.util;
 
-import com.unimib.ilovedevelopers.model.api.response.Job;
+import com.unimib.ilovedevelopers.model.api.response.country.CountryEntity;
+import com.unimib.ilovedevelopers.model.api.response.job.Job;
 
 import java.util.List;
 
-public interface ResponseCallBack {
+public interface ResponseCallBack<T> {
 
-    void onSucccess(List<Job> jobList, long lastUpdate);
+    void onSucccess(List<T> data, long timestamp);
+
     void onFailure(String errorMessage);
 }
